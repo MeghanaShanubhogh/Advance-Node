@@ -1,11 +1,9 @@
-# AdvancedNodeStarter
-
-Starting project for a course on Advanced Node @ Udemy
+# AdvanceNode
+A Simple project that uses react and node.js mostly focused on to create cache using redis cache to imporve the perfroamce and also used AWS S3 to handle large payload using signed URL of S3/
 
 ### Installation
 
 - Run `npm install` in the root of the project to install the server's dependencies
-- Change into the client directory and run `npm install --legacy-peer-deps`
+- Change into the client directory and run `npm install --legacy-peer-deps` - for react app
 - Change back into the root of the project and run `npm run dev` to start application
 
-**Important** - the Mongo Atlas database credentials provided in `dev.js` are read only. If you attempt to login without using your own connection string (covered in the course) you will get the following error `[0] MongoError: user is not allowed to do action [insert] on [advnode.users]`
